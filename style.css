@@ -1,0 +1,134 @@
+body{
+
+    background-color: lightblue;
+    color: rgb(4, 11, 104);
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-size: 25px;
+    font-weight: lighter
+}
+
+h1{
+    color: #ff0000;
+    font-family: Arial
+}
+
+.box-1
+{
+    background-color: whitesmoke;
+    border: 5px red solid;
+    border-style:ridge;
+    margin: 10px;
+
+
+
+
+}
+
+.box-2
+{
+
+    background-color: wheat;
+    border: 5px rebeccapurple solid;
+    padding: 20px;
+    margin: 10px;
+
+
+
+
+
+}
+
+.container
+{
+    width: 80%;
+    margin: auto;
+    
+}
+
+.box-1 h4 {
+    font-family:  Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+a{
+    text-decoration: none;
+    color: black
+}
+
+a:hover{
+    color: red
+}
+
+a:active
+{
+    color:green
+}
+/* visited state */
+a:visited{
+    color: blueviolet;
+}
+
+.my-form{
+    background-color: grey;
+    color: blanchedalmond;
+    padding: 50px;
+    margin: 10px;
+
+
+
+    
+}
+
+.my-form input[type = "text"]{
+    padding: 8px;
+    width: 100%
+}
+
+.button{
+    padding: 8px;
+    border: none;
+    background-color: darkblue;
+    color: whitesmoke 
+    
+}
+
+.profile-info img {
+    margin: 25px;
+    float: right;
+    position:relative;
+    height: 250px;
+    clear: right;
+
+
+}
+
+.profile-info hr {
+
+    width: 80%;
+    height: 80%
+
+}
+
+.profile-info {
+
+    text-align: left;
+
+}
+
+
+
+
+
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+
+
+
+  }

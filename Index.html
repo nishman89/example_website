@@ -1,104 +1,67 @@
 <!DOCTYPE html>
 <html>
-	<head>
-        <title>My Profile</title>
-        <meta charset="utf-8" />
-        <meta name="author" content="Cathy"/>
-        <meta name="description" content="This is a wonderful web page"/>
+<head>
+	<title>My Profile</title>
+	<meta charset="utf-8">
+	<meta content="Cathy" name="author">
+	<meta content="This is a wonderful web page" name="description">
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<hr>
+		<div class="profile-info">
+			<img alt="logo" src="images/profilepic.jpg">
 
-        <style>
-            form{
-                width: 40vw;
-                margin: 3vh auto;
-                background-color: #f6e4d2;
-                padding: 10vmin;
-            }
-            input{
-                margin:2vmin;
-            }
-            </style>
+            <h1>Nishant Mandal</h1>
+			<h2><a href="projects.html">Go to projects</a></h2>
+			<h2><a href="https://www.linkedin.com/in/nishantmandal/" target="_blank">My LinkedIn</a></h2>
 
-	</head>
-        <body>
+		<hr>
+	</div>
+        <br>
+		<nav class="box-1">
+			<h4>My Skills</h4>
+			<ol>
+				<li>
+					<a href="#">Testing</a>
+				</li>
+				<li>
+					<a href="#">More Testing</a>
+				</li>
+				<li>
+					<a href="#">Nothing but testing</a>
+				</li>
+			</ol>
+		</nav>
+		<div class="box-1">
+			<h4>My Hobbies</h4>
+			<ul>
+				<li>Football</li>
+				<li>Video Games</li>
+				<li>Music</li>
+			</ul>
+		</div>
+		<main class="box-2">
+			<h4>Goals</h4>
+			<aside>
+				<p>Become President</p>
+			</aside>
+		</main>
 
-            <hr>
-            <div class="header">
-                <img src="images/profilepic.jpg" alt="logo" />
-                <h1>Nishant Mandal</h1>
-              </div>
-          
-            
-            <h2>My Profile</h2>
+        <br>
 
-            <h3><a href="projects.html">Go to projects</a></h2>
-
-<h3><a href="https://www.linkedin.com/in/nishantmandal/" target="_blank">My LinkedIn</a></h3>
-
-<hr>
-
-                <h4>My Skills</h4>
-                <nav class = "skills">
-                <ol>
-                    <li><a href="#">Testing</a></li>
-                    <li><a href="#">More Testing</a></li>
-                    <li><a href="#">Nothing but testing</a></li>
-                </ol>
-            </nav>
-
-            <main>
-                <h4>My Hobbies</h4>
-                 <ul>
-                    <li>Football</li>
-                    <li>Video Games</li>
-                    <li>Music</li>
-                </ul>
-            </main>
-       
-            <section>
-                <h2>Why I am great</h2>
-                <aside>
-                    <p>Many reasons why I am great, I can't be bothered to name them</p>
-                    <aside>
-                        <p>Many a man wanted Nish dead</p>
-                    </aside>
-             </section>
-             
-
-
-<section>
-    <h3>Search Local News</h3>
-             <form action="https://www.bbc.co.uk/search">
-                <label for="search">Search for:</label><br>
-                <input type="text" id="search" name="q" value="Birmingham"><br>
-                <input type="submit" value="Submit">
-             </form>
-   
-
-
-             <form>
-                <h2 style="text-align:center">User Form</h2>
-                <input type="text" name="username" placeholder="enter your username" required autofocus /><br />
-                <input type="password" name="password" placeholder="password" /><br />
-                <label for="tickthis">Tick this</label>
-                <input type="checkbox" name="tickthis" value="tickthis" checked /><br />
-                <input type="radio" name="groupname" value="first" checked><label for="first">first</label>
-                <input type="radio" name="groupname" value="second"><label for="second">second</label>
-                <input type="radio" name="groupname" value="third"><label for="third">third</label><br />
-                <select multiple name="choosethis">
-                    <option value="some option" selected>some option</option>
-                    <option value="another option">another option</option>
-                </select><br />
-                <button type="submit">Submit</button>
-            </form>
-
-                 <br>
-                 <footer>
-                    <small>Copyright &#169; Sparta Global 2021</small>
-                  </footer>
-                  <cite>by NishMan89</cite>
-                </section>
-
-     
-            </div>
-	</body>
-</html>	
+			<div class="form-group">
+				<h3>Search Local News</h3>
+				<form action="https://www.bbc.co.uk/search" class="my-form">
+					<label for="search">Search for:</label><br>
+					<input id="search" name="q" type="text" value="Birmingham"><br>
+					<input class="button" type="submit" value="Submit">
+				</form>
+			</div><br>
+			<footer>
+				<small>Copyright &#169; Sparta Global 2021</small>
+			</footer><cite>by NishMan89</cite>
+	</div>
+</body>
+</html>
