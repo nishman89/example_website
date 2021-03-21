@@ -87,13 +87,17 @@ a:visited{
     
 }
 
-.profile-info img {
-    margin: 25px;
-    float: right;
-    position: relative;
-    right: 20%;
-    clear: left;
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
 }
+
+.profile-info img {
+    margin: 5%;
+
+ }
 
 .profile-info hr {
 
@@ -101,15 +105,15 @@ a:visited{
     height: 80%;
 }
 
-.profile-info {
+.profile-details {
 
     text-align:center;
-    float: none;
-    position: static;
+
+    margin: 5%;
+
 }
 
 table, th, td {
     border: 1px solid black;
     text-align: center;
-    padding: 15px;
   }
