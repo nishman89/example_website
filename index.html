@@ -48,10 +48,17 @@
 													<li>Music</li>
 												</ul>
 											</div>
-											<main class="box-2">
+											<main  class="box-2">
 												<h4>Goals</h4>
-												<p>Become President</p>
+												<ul id="dynamic-list">
+													<li id ="become-president">Become President</li>
+												</ul>
+												
 											</main>
+											<form>
+												<input id="new-goal-Submit" type="button" value="Click to add new goal" onclick="addGoal()"><br>
+												<input id="delete-previous-goal" type="button" value="Click to remove goal" onclick="removeGoal()"><br>								
+											</form>
 											<br>
 												<div class="form-group">
 													<h3>Search Local News</h3>
@@ -68,6 +75,7 @@
 																		<small>Copyright &#169; Sparta Global 2021</small>
 																	</footer>
 																	<cite>by NishMan89</cite>
+																	<script src="main.js"></script>
 																</div>
 															</body>
 														</html>
