@@ -159,3 +159,54 @@ footer {
   min-width: 150px;
 
 }
+
+#add-remove-goals-forms {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+
+#new-goal-Submit, #delete-previous-goal {
+  width: 100%;
+  max-width: 100%;
+  margin: 0.5rem;
+  padding: 1rem;
+}
+header {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+
+header .header-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.box {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.header-list-item a {
+  display: block;
+  margin-top: 10px;
+  color: #333;
+}
+/* The media query makes the styles apply only to devices with a maximum width of 768px.  */
+@media only screen and (max-width: 767px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header .header-nav {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
