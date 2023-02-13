@@ -11,7 +11,7 @@
 	<link href="style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="container">
 	<header class="header d-flex align-items-center">
 		<img src="images/profilepic.jpg" alt="Profile Picture" class="rounded-circle mr-5" width="200" height="200">
 		<nav class="header-nav">
@@ -54,8 +54,8 @@
 				<li id="become-president">Become President</li>
 			  </ul>
 			  <form>
-				<input id="new-goal-Submit" class="btn btn-primary mb-2" type="button" value="Add New Goal" onclick="addGoal()">
-				<input id="delete-previous-goal" class="btn btn-danger mb-2" type="button" value="Remove Goal" onclick="removeGoal()">
+				<input id="new-goal-Submit"  type="button" value="Add New Goal" onclick="addGoal()">
+				<input id="delete-previous-goal"  type="button" value="Remove Goal" onclick="removeGoal()">
 			  </form>
 			</div>
 		  </div>
@@ -67,15 +67,14 @@
 			  <label for="search">Search for:</label>
 			  <input id="search" name="q" type="text" class="form-control" value="Birmingham">
 			</div>
-			<input class="btn btn-primary" type="submit" value="Submit">
+			<input id="submit-button" type="submit" value="Submit">
 		  </form>
 		</div>
 	  </div>
 	<div>
 		<footer>
-			<small>Copyright &#169; Sparta Global 2021</small>
+			<small>Copyright &#169; Sparta Global 2021 <cite>- NishMan89</cite></small>
 		</footer>
-		<cite>by NishMan89</cite>
 	</div>
 	<script defer src="main.js"></script>
 </body>
