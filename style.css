@@ -108,13 +108,6 @@ input[type="submit"]:hover {
   background-color: #6d1c00;
 }
 
-footer {
-  background-color: #fff;
-  padding: 20px;
-  text-align: center;
-  width: 100%;
-}
-
 #new-goal-Submit {
   border: none;
   border-radius: 5px;
